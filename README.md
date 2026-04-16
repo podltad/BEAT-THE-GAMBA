@@ -13,8 +13,8 @@ je strategická 2D hra žánru Tower Defense, na kterou hráč nahlíží z pta�
 3. *[grafika](https://github.com/podltad/BEAT-THE-GAMBA/blob/main/3_grafika.md)*
 4. *[zvuky a hudba](https://github.com/podltad/BEAT-THE-GAMBA/blob/main/4_zvuky_a_hudba.md)*
 5. *[implementace](https://github.com/podltad/BEAT-THE-GAMBA/blob/main/5_implementace.md)*
-6. *[instagram účet]()*
-7. *[instagram účet]()*
+6. *[propagace](https://github.com/podltad/BEAT-THE-GAMBA/blob/main/6_propagace.md)*
+7. *[finální hra](https://github.com/podltad/BEAT-THE-GAMBA/blob/main/7_finální%20hra.md)*
 
 
 
