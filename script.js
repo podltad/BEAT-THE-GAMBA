@@ -55,7 +55,7 @@ const overlay = document.getElementById("overlay");
 const overlayTitle = document.getElementById("overlay-title");
 const finalWaveSpan = document.getElementById("final-wave");
 
-const MAX_WAVES = 4; 
+const MAX_WAVES = 30; 
 const START_MONEY = 260;
 const START_LIVES = 20;
 
