@@ -17,6 +17,7 @@ V této fázi je hra kompletně dokončena, otestována a připravena pro koncov
 ### Výstup: Hratelná verze
  
 * **Dostupnost:** Hratelná verze je plně funkční v jakémkoliv moderním webovém prohlížeči (Chrome, Firefox, Edge, Safari) primárně na PC (ovládání myší).
+* [klikni pro hraní](https://podltad.github.io/BEAT-THE-GAMBA/)
 
 ---
 
