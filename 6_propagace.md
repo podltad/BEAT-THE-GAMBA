@@ -9,7 +9,7 @@ YouTube slouží jako primární nástroj pro vizuální prezentaci hry.
 * **Využití:** Náhledové obrázky (thumbnails) jsou navrženy tak, aby zaujaly výrazným zlatým písmem a akčními výjevy z pustiny.
 * **Cíl:** Získat pozornost hráčů a ukázat hru v pohybu.
   
-* *[video upoutávka]()*
+* *[video upoutávka](https://youtu.be/BWKrUSWvMXw)*
 
 ### 📸 Instagram (Vizuální styl a zákulisí)
 Instagram doplňuje propagaci o estetickou stránku projektu.
