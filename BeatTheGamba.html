@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>BEAT THE GAMBA</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2245%22 fill=%22%231a1a1a%22 stroke=%22%23ccaa00%22 stroke-width=%225%22 /><circle cx=%2250%22 cy=%2250%22 r=%2235%22 fill=%22none%22 stroke=%22%23ccaa00%22 stroke-width=%222%22 stroke-dasharray=%225,5%22 /><text x=%2250%22 y=%2275%22 font-size=%2270%22 text-anchor=%22middle%22 fill=%22%23ccaa00%22>♠</text></svg>">
+
+</head>
+<body>
+
+    <div id="tooltip"></div>
+
+    <div id="top-bar">
+        <div class="stat"><span id="lbl-money">KREDITY: </span><span id="money">225</span></div>
+        
+        <div id="wave-preview">
+            <div class="wave-box current" id="wave-curr">1</div>
+            <div class="wave-box" id="wave-next1">2</div>
+            <div class="wave-box" id="wave-next2">3</div>
+        </div>
+
+        <div class="stat stat-lives">
+            <span id="lbl-lives">ŽIVOTY: </span><span id="lives">20</span>
+            <button id="menu-btn" onclick="toggleMenu()">MENU</button>
+        </div>
+    </div>
+
+    <div id="game-container">
+        <canvas id="gameCanvas" width="800" height="550"></canvas>
+        
+        <div id="map-name">MAPA: PUSTINA</div>
+
+        <div id="settings-menu">
+            <div class="menu-box">
+                <h2 id="menu-title">NASTAVENÍ</h2>
+                
+                <div class="menu-item">
+                    <label id="label-lang">JAZYK / LANGUAGE</label>
+                    <button id="lang-toggle" onclick="toggleLanguage()">CZ / EN</button>
+                </div>
+
+                <div class="menu-item">
+                    <label id="label-music">HUDBA / MUSIC</label>
+                    <input type="range" id="music-slider" min="0" max="100" value="50">
+                </div>
+
+                <div class="menu-item">
+                    <label id="label-sounds">ZVUKY / SOUNDS</label>
+                    <input type="range" id="sound-slider" min="0" max="100" value="70">
+                </div>
+
+                <button id="close-menu-btn" onclick="toggleMenu()">ZPĚT DO HRY</button>
+            </div>
+        </div>
+
+        <div id="overlay">
+            <h1 id="overlay-title">GAMBA TĚ DOSTALA</h1>
+            <div style="font-size: 18px; margin-bottom: 30px; color: #888;"><span id="lbl-final-wave">DOSAŽENÁ VLNA: </span><span id="final-wave" style="color:white">0</span></div>
+            <button id="restart-btn" onclick="restartGame()">ZNOVU DO PUSTINY</button>
+        </div>
+
+        <div id="side-panel">
+            <div class="tower-slot" onmouseover="showTip('math')" onmouseout="hideTip()" onclick="selectTower('math', this)">
+                <div class="icon" style="background:#3a6ea5"></div><b id="lbl-math">Matematik</b>
+            </div>
+            <div class="tower-slot" onmouseover="showTip('tax')" onmouseout="hideTip()" onclick="selectTower('tax', this)">
+                <div class="icon" style="background:#a53a3a"></div><b id="lbl-tax">Exekutor</b>
+            </div>
+            <div class="tower-slot" onmouseover="showTip('police')" onmouseout="hideTip()" onclick="selectTower('police', this)">
+                <div class="icon" style="background:#3aa55a"></div><b id="lbl-police">Kriminálka</b>
+            </div>
+            <div class="tower-slot" onmouseover="showTip('banker')" onmouseout="hideTip()" onclick="selectTower('banker', this)">
+                <div class="icon" style="background:#c0a030"></div><b id="lbl-banker">Bankéř</b>
+            </div>
+            
+            <hr style="width: 80%; border-color: #333; margin: 20px 0;">
+            
+            <div class="tower-slot sell-mode" onmouseover="showTip('sell')" onmouseout="hideTip()" onclick="selectTower('sell', this)">
+                <div class="icon" style="background:#333; display:flex; justify-content:center; align-items:center; font-weight:bold; color:#ccaa00; border-color:#ccaa00;">$</div>
+                <b id="lbl-sell" style="color:#ccaa00;">PRODAT</b>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
