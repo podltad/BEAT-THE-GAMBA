@@ -1,4 +1,4 @@
-# BEAT THE GAMBA
+# BEAT THE GAMBA - jediná tower defense hra která ti pomůže zbavit se závislosti na hazardu.
 je strategická 2D hra žánru Tower Defense, na kterou hráč nahlíží z ptačí perspektivy . Hratelnost a zábava stojí na klasickém principu obrany vytyčené cesty před nabíhajícími vlnami nepřátel, ovšem s unikátním zvratem.Tím je tematické zasazení, které kombinuje nehostinný post-apokalyptický svět s prvky hazardu.
 ### [klikni pro hraní](https://podltad.github.io/BEAT-THE-GAMBA/)
 
