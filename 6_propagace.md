@@ -15,4 +15,4 @@ YouTube slouží jako primární nástroj pro vizuální prezentaci hry.
 Instagram doplňuje propagaci o estetickou stránku projektu.
 * **Obsah:** Screenshoty z vývoje, concept art (návrhy grafik z kapitoly 3) a krátká Reels videa ukazující vizuální efekty.
 * **Cíl:** Udržovat povědomí o hře skrze pravidelné vizuální updaty a "pohledy do zákulisí" tvorby assetů.
-* *[instagram účet]()*
+* *[instagram účet](https://www.instagram.com/beat.the.gamba/)*
